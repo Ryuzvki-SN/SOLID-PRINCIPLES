@@ -9,18 +9,20 @@ public class Employee {
     /**
      * Constructor class Animal.
      *
-     * @param name   represents the name of an Employee
-     * @param task   represents the task
+     * @param name represents the name of an Employee
+     * @param task represents the task
+     * @param pay  represents the dependency injection
      */
-    public Employee(String name, String task) {
+    public Employee(String name, String task, Ipay pay) {
         this.name = name;
         this.task = task;
-        this.payEmployee = new Pay();
+        this.payEmployee = pay;//Injection de dependence
     }
 
     /**
      * Depend on abstractions,
      * not on concretions.
+     *
      * @implNote This method checks DIP clause that
      * must be applied by a class
      */

@@ -2,7 +2,7 @@ package com.lazzy;
 
 import java.util.Objects;
 
-public class Pay implements Ipay{
+public class Pay implements Ipay {
     @Override
     public String payEmployee(String task) {
         if (Objects.equals(task, "pentester")) {
