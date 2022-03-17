@@ -7,7 +7,7 @@ public class Employee {
     private final Ipay payEmployee;
 
     /**
-     * Constructor class Animal.
+     * Constructor class Employee.
      *
      * @param name represents the name of an Employee
      * @param task represents the task
