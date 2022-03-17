@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Pay implements Ipay {
     @Override
-    public String payEmployee(String task) {
+    public String pay(String task) {
         if (Objects.equals(task, "pentester")) {
             return "$65000.00";
         } else if (Objects.equals(task, "frontend developper")) {

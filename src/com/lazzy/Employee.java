@@ -28,7 +28,7 @@ public class Employee {
      */
 
     public String pay() {
-        return payEmployee.payEmployee(this.task);
+        return payEmployee.pay(this.task);
     } //Delegation
 
     public String toString() {
