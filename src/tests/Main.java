@@ -1,4 +1,8 @@
-package com.lazzy;
+package tests;
+
+import com.lazzy.Employee;
+import com.lazzy.Ipay;
+import service.Pay;
 
 public class Main {
 
