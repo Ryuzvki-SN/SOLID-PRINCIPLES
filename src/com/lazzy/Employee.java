@@ -1,10 +1,10 @@
 package com.lazzy;
 
+import java.util.Objects;
+
 public class Employee {
     private final String name;
     private final String task;
-
-    private final Ipay payEmployee;
 
     /**
      * Constructor class Animal.
@@ -15,19 +15,24 @@ public class Employee {
     public Employee(String name, String task) {
         this.name = name;
         this.task = task;
-        this.payEmployee = new Pay();
     }
 
     /**
-     * A class should have one
-     * and only one, reason to change.
-     * @implNote This method checks SRP clause that
-     * must be applied by a class
+     * @implNote This method break the SRP clause that
+     * must be verified by a class
      */
 
     public String pay() {
-        return payEmployee.payEmployee(this.task);
-    } //Delegation
+        if (Objects.equals(task, "pentester")) {
+            return "$75000.00";
+        } else if (Objects.equals(task, "frontend developper")) {
+            return "$65000.00";
+        } else if (Objects.equals(task, "backend developper")) {
+            return "$70000.00";
+        } else {
+            return "[!] task non répertorié ! ";
+        }
+    }
 
     public String toString() {
         return "Employee{" +
