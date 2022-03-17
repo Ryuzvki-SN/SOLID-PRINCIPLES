@@ -19,9 +19,9 @@ public class Employee {
     }
 
     /**
-     * A class should have one
-     * and only one, reason to change.
-     * @implNote This method checks SRP clause that
+     * Depend on abstractions,
+     * not on concretions.
+     * @implNote This method checks DIP clause that
      * must be applied by a class
      */
 
