@@ -8,9 +8,9 @@ public class Main {
         Employee employee3 = new Employee("Mamadou", "pentester");
 
         System.out.println(employee1 + " : "+ employee1.pay());
-        System.out.println("----------------------\n");
+        System.out.println("-----------------------\n");
         System.out.println(employee2 + " : "+ employee2.pay());
-        System.out.println("----------------------\n");
+        System.out.println("-----------------------\n");
         System.out.println(employee3 + " : "+ employee3.pay());
     }
 

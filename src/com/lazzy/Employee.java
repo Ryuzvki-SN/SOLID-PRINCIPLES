@@ -4,10 +4,10 @@ public class Employee {
     private final String name;
     private final String task;
 
-    private final Ipay payEmployee;
+    private final Pay payEmployee;
 
     /**
-     * Constructor class Animal.
+     * Constructor class Employee.
      *
      * @param name   represents the name of an Employee
      * @param task   represents the task
@@ -15,11 +15,12 @@ public class Employee {
     public Employee(String name, String task) {
         this.name = name;
         this.task = task;
-        this.payEmployee = new Pay();
+
+        payEmployee = new Pay();
     }
 
     /**
-     * A class should have one
+     * A class should have one,
      * and only one, reason to change.
      * @implNote This method checks SRP clause that
      * must be applied by a class
