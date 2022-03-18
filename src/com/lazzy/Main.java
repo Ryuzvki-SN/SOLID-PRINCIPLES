@@ -1,4 +1,4 @@
-package tests;
+package com.lazzy;
 
 import com.lazzy.Employee;
 import com.lazzy.Ipay;
