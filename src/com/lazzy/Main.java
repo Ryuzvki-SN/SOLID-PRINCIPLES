@@ -15,11 +15,12 @@ public class Main {
         App employee2 = new App("Daouda", emp2);
         App employee3 = new App("Mamadou", emp3);
         //sout
-        System.out.println(employee1 + " : "+ employee1.pay());
         System.out.println("-----------------------\n");
-        System.out.println(employee2 + " : "+ employee2.pay());
+        System.out.println(employee1 + " gets " + employee1.pay());
         System.out.println("-----------------------\n");
-        System.out.println(employee3 + " : "+ employee3.pay());
+        System.out.println(employee2 + " gets "+ employee2.pay());
+        System.out.println("-----------------------\n");
+        System.out.println(employee3 + " gets "+ employee3.pay());
     }
 
 }
