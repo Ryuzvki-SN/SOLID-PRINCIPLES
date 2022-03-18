@@ -10,7 +10,6 @@ public class App {
      *
      * @param name represents the name of an Employee
      * @param employee  represents the dependency injection
-     * @param employeeFactory  represents the dependency injection for EmployeeFactory
      */
     public App(String name, Employee employee) {
         this.name = name;
@@ -30,6 +29,6 @@ public class App {
     } //Delegation
 
     public String toString() {
-        return "Employee{" + "Name:'" + this.name + '\'' + '}';
+        return this.name ;
     }
 }
