@@ -1,4 +1,4 @@
-package com.lazzy;
+import com.lazzy.Employee;
 
 public class Main {
 
