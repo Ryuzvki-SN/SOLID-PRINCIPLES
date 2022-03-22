@@ -8,5 +8,5 @@ public class EmployeeFactory implements IEmployeeFactory {
     @Override
     public Employee createEmployee(AbstractEmployeeType type) {
         return type.create();
-    }
+    }  // Fermé à la modification
 }
