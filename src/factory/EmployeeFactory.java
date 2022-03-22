@@ -1,7 +1,6 @@
 package factory;
 
 import com.lazzy.Employee;
-import com.lazzy.IEmployeeFactory;
 import com.typeEmployee.BackendDevelopper;
 import com.typeEmployee.FrontendDevelopper;
 import com.typeEmployee.Pentester;

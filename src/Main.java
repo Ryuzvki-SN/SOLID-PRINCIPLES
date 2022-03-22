@@ -1,5 +1,6 @@
-package com.lazzy;
-
+import com.lazzy.App;
+import com.lazzy.Employee;
+import factory.IEmployeeFactory;
 import factory.EmployeeFactory;
 
 public class Main {
