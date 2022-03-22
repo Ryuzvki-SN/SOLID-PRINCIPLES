@@ -1,7 +1,5 @@
 package service;
 
-import com.lazzy.Ipay;
-
 import java.util.Objects;
 
 public class Pay implements Ipay {

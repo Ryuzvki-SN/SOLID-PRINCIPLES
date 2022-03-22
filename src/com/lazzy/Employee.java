@@ -1,5 +1,7 @@
 package com.lazzy;
 
+import service.Ipay;
+
 public class Employee {
     private final String name;
     private final String task;

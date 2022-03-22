@@ -1,7 +1,5 @@
-package com.lazzy;
-
 import com.lazzy.Employee;
-import com.lazzy.Ipay;
+import service.Ipay;
 import service.Pay;
 
 public class Main {
