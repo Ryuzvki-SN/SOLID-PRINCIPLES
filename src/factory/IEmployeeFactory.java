@@ -1,7 +1,8 @@
 package factory;
 
 import com.lazzy.Employee;
+import strategy.AbstractEmployeeType;
 
 public interface IEmployeeFactory {
-    Employee createEmployee(String empType);
+    Employee createEmployee(AbstractEmployeeType type);
 }

@@ -17,10 +17,10 @@ public class App {
     }
 
     /**
-     * Derived classes must be
-     * substitutable for their base classes.
+     * You should be able to extend a classes behavior,
+     * without modifying it
      *
-     * @implNote This method checks LSP clause that
+     * @implNote This method checks OCP clause that
      * must be applied by a class
      */
 
