@@ -22,10 +22,10 @@ public class Employee {
     }
 
     /**
-     * Depend on abstractions,
-     * not on concretions.
+     * Make fine grained interfaces that
+     * are client specific
      *
-     * @implNote This method checks DIP clause that
+     * @implNote This method checks ISP clause that
      * must be applied by a class
      */
 
